@@ -13,6 +13,6 @@
     "spessasynth_lib": "^4.4.7"
   },
   "devDependencies": {
-    "vite": "^5.4.10"
+    "vite": "^7.0.0"
   }
 }
