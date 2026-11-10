@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>VibeCoding · 练耳</title>
+    <meta name="description" content="离线练耳应用：单音、音程、和弦、音阶、和弦进行听辨训练，支持吉他/钢琴音色。" />
+    <meta name="theme-color" content="#101218" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/png" href="./icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="VibeCoding" />
+    <script type="module" crossorigin src="./assets/index-LwvkwwbB.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DsJ17Fcp.css">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <button id="back-btn" aria-label="返回">‹</button>
+        <div id="header-title">VibeCoding</div>
+        <div style="width:32px"></div>
+      </header>
+      <main id="view"></main>
+    </div>
+
+    <nav id="tabbar">
+      <button class="tab" data-tab="home"><span class="tab-ico">🏠</span>首页</button>
+      <button class="tab" data-tab="stats"><span class="tab-ico">📊</span>统计</button>
+      <button class="tab" data-tab="wrong"><span class="tab-ico">📕</span>错题</button>
+      <button class="tab" data-tab="settings"><span class="tab-ico">⚙️</span>设置</button>
+    </nav>
+
+    <div id="overlay">
+      <div class="overlay-box">
+        <div class="spinner"></div>
+        <div id="overlay-text">加载中…</div>
+        <div class="overlay-track"><div id="overlay-bar-fill"></div></div>
+      </div>
+    </div>
+    <div id="toast"></div>
+
+  </body>
+</html>

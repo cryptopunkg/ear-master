@@ -1,0 +1,17 @@
+{
+  "name": "VibeCoding 练耳",
+  "short_name": "VibeCoding",
+  "description": "离线练耳应用：单音、音程、和弦、音阶、和弦进行听辨训练，支持吉他/钢琴音色。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101218",
+  "theme_color": "#101218",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
